@@ -1,4 +1,4 @@
-include("../deps/deps.jl")
+include(Pkg.dir("XGBoost", "deps", "build.jl"))
 
 
 if build_version == "master"
